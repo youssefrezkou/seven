@@ -806,7 +806,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url('../img/background1.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  margin-bottom: 40px;
 }
 
 #expertise2 .about-container .background2 {
@@ -815,7 +816,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url('../img/background2.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  margin-bottom: 40px;
 }
 
 #expertise2 .about-container .background3 {
@@ -824,7 +826,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url('../img/background3.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  margin-bottom: 40px;
 }
 
 #expertise2 .about-container .background4 {
@@ -833,7 +836,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url('../img/background4.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  margin-bottom: 40px;
 }
 
 #expertise2 .about-container .background5 {
@@ -842,7 +846,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url('../img/background5.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  margin-bottom: 40px;
 }
 
 
