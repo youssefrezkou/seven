@@ -405,13 +405,31 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.45);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
 }
+
+
+#spin:after {
+  content:"";
+  animation: spin 10s linear infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+  0% { animation-timing-function: ease-in-out;
+    content:"INSURANCE SURVEY (P&I Underwriter claim)";}
+  25% { content:"MARINE SURVEYING & SUPERINTENDANT SURVEY ";}
+  50% { content:"Determining the Bunker Amount (Bunker Survey)";}
+  75% { content: "CARGO SURVEY";}
+  100% { content: "Shipping Container Survey ";}
+}
+
+
+
 
 #hero .hero-container {
   position: absolute;
@@ -478,34 +496,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-.js-nametag:nth-child(1){
-  animation-name: fade;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-direction: alternate-reverse;
-}
-
-
-.js-nametag:nth-child(2){
-  animation-name: fade;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-direction: alternate;
-}
-
-@keyframes fade{
-    0%,50% {
-      opacity: 0;
-}
-    100%{
-      opacity: 1;
-  }
-}
 
 .btn-get-started:hover
 {
@@ -894,9 +884,50 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Services Section
 --------------------------------*/
+
 .morebut{
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  cursor: pointer;
+}
+
+.morebut span{
+  position: relative;
+  z-index: 2;
+}
+
+.morebut:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #004473;
+  transition: all .35s;
+}
+
+.morebut:hover{
+  color: #fff;
+}
+
+.morebut:hover:after{
   width: 100%;
 }
+
+
+
+
 #services {
   background: #fff;
   background-size: cover;
@@ -1148,6 +1179,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #expertise2 .about-container .title {
   color: #004473;
+  width: auto;
   font-weight: 700;
   font-size: 32px;
 }
