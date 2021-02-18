@@ -96,49 +96,157 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* The Close Button */
-#close2 {
+#close21 {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-#close2:hover,
-#close2:focus {
+#close21:hover,
+#close21:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#close22 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close22:hover,
+#close22:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* The Close Button */
+
+
+#close31 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close31:hover,
+#close31:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#close32 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close32:hover,
+#close32:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#close33 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close33:hover,
+#close33:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
 
 /* The Close Button */
-#close3 {
+#close41 {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-#close3:hover,
-#close3:focus {
+#close41:hover,
+#close41:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* The Close Button */
-#close4 {
+#close42 {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-#close4:hover,
-#close4:focus {
+#close42:hover,
+#close42:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
+#close43 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close43:hover,
+#close43:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#close44 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close44:hover,
+#close44:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#close45 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close45:hover,
+#close45:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
 
 /* The Close Button */
 #close5 {
@@ -297,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -786,6 +894,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Services Section
 --------------------------------*/
+.morebut{
+  width: 100%;
+}
 #services {
   background: #fff;
   background-size: cover;
@@ -797,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 300px;
+  height: 500px;
   position: relative;
   background: #fafafa;
 }
