@@ -127,14 +127,6 @@ jQuery(document).ready(function ($) {
 
   // custom code
 
-
-
-
-
-
-
-
-
   // the modal1 starts here 11111111111111111111111111111111111111111111111111111111111111111111111111111
     // Get the modal
     var modal1 = document.getElementById("myModal1");
@@ -418,16 +410,5 @@ jQuery(document).ready(function ($) {
       }
     }
   // the modal6 ends here 666666666666666666666666666666666666666666666666666666666666666666666666666
-
-
-
-
-
-
-
-
-
-
-
 
 });
