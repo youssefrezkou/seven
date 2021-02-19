@@ -371,11 +371,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-  #spin:after {
-    content:"";
-    animation: spin 20s linear infinite;
-    animation-timing-function: ease-in-out;
-  }
+
   @keyframes spin {
     0% { white-space:pre; content:"INSURANCE SURVEY \a (P&I Underwriter claim)";}
     25% { content:"MARINE SURVEYING \a & SUPERINTENDANT SURVEY ";}
@@ -383,7 +379,11 @@ h1, h2, h3, h4, h5, h6 {
     75% { content: "CARGO SURVEY";}
     100% { content: "Shipping Container Survey ";}
   }
-
+  #spin:after {
+    content:"";
+    animation: spin 20s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+  }
 }
 
 #header.header-fixed {
@@ -396,12 +396,16 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
+
+
 #hero {
   width: 100%;
   height: 100vh;
   background-size: cover;
   position: relative;
-  animation: heroo alternate 20s infinite 0s;
+  animation: heroo 20s alternate infinite 0s;
   animation-timing-function: ease-in;
 }
 @keyframes heroo {
