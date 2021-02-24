@@ -54,10 +54,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
+.ser_txtdp {
+  font-size: 25px;
+}
+
 .ser_imagec h1 {
-  color: black;
+  color: #004473;
   font-weight: 500;
-  font-size: 2.2vw;
+  font-size: 3.5vw;
 }
 .ser_imagec p {
   color: black;
@@ -370,6 +374,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ser_txtc {
+  margin-left: 1%;
+  color: black;
+  font-family: sans-serif;
+  width: 100%;
+}
+.ser_imagec{
+  width: 100%;
+  object-fit: none;
+}
+.ser_txtd {
   margin-top: 3%;
   margin-left: 1%;
   padding: 0.5%;
@@ -377,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   width: 60%;
 }
-.ser_imagec{
+.ser_imaged{
   width: 35%;
   padding: 1%;
   object-fit: none;
@@ -1358,7 +1372,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #36b8ea;
   float: left;
 }
 
@@ -1435,7 +1449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2dc997;
+  background: #36b8ea;
   border: 0;
   padding: 10px 24px;
   color: #fff;
