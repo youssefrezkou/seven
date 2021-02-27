@@ -1,6 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
+
+
+@font-face {
+font-family: 'DIN 2014 Extra Light';
+src: url('DIN2014-ExtraLight.eot');
+src: url('DIN2014-ExtraLight.eot?#iefix') format('embedded-opentype'),
+url('DIN2014-ExtraLight.woff') format('woff'),
+url('DIN2014-ExtraLight.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 body {
   background: #fff;
   color: #666666;
@@ -37,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #whoarewe {
   padding-top: 100px;
+  background-color: #e4ebf5;
 }
 /* Prelaoder */
 #preloader {
@@ -126,6 +139,63 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px;
 }
 
+
+
+.sqs-row {
+    width: auto !important;
+}
+
+
+
+
+
+.sqs-row p {
+  color: #004080;
+  font-family: DIN 2014 Extra Light;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: .015em;
+  line-height: 1.4em;
+  text-transform: none;
+}
+
+
+.sqs-row h2 {
+  color: #004080;
+  font-family: DIN Condensed Web;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: .075em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+
+@media(max-width: 768px){
+.sqs-row {
+    display: block;
+    float: none !important;
+    width: auto !important;
+  }
+}
+
+
+
+.col p {
+  white-space:pre-wrap;
+}
+
+
+
+
+.sqs-block {
+    position: relative;
+    height: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
 
 
 /* Back to top button */
