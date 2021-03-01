@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #whoarewe {
   padding-top: 100px;
-  background-color: #dff5f0;
+  background-color: #f0f7ff;
 }
 /* Prelaoder */
 #preloader {
@@ -150,9 +150,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .sqs-row p {
-  color: #fff;
+  color: #004080;
   font-family: 'PT Serif', serif;
-  font-weight: 550;
+  font-weight: 600;
   font-style: normal;
   font-size: 15px;
   letter-spacing: .015em;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .sqs-row h2 {
-  color: #fff;
+  color: #004080;
   font-family: 'Black Han Sans', sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -205,11 +205,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .back1 {
   padding-top: 20px;
-  background-color: #5ea3a3;
+  background-color: #dfe7f0;
 }
 .back2 {
   padding-top: 20px;
-  background-color: #488b8f;
+  background-color: #d3deeb;
 }
 
 
