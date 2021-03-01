@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #whoarewe {
   padding-top: 100px;
-  background-color: #e4ebf5;
+  background-color: #dff5f0;
 }
 /* Prelaoder */
 #preloader {
@@ -150,9 +150,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .sqs-row p {
-  color: #004080;
-  font-family: DIN 2014 Extra Light;
-  font-weight: 600;
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  font-weight: 550;
   font-style: normal;
   font-size: 15px;
   letter-spacing: .015em;
@@ -162,14 +162,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .sqs-row h2 {
-  color: #004080;
-  font-family: DIN Condensed Web;
+  color: #fff;
+  font-family: 'Black Han Sans', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 22px;
   letter-spacing: .075em;
   line-height: 1.4em;
   text-transform: uppercase;
+  white-space:pre-wrap;
 }
 
 
@@ -195,7 +196,32 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 17px;
     padding-bottom: 17px;
+    margin-right: -15px;
+    margin-left: -15px;
 }
+
+
+
+
+.back1 {
+  padding-top: 20px;
+  background-color: #5ea3a3;
+}
+.back2 {
+  padding-top: 20px;
+  background-color: #488b8f;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Back to top button */
